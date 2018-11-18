@@ -3,7 +3,7 @@ title: 'Why descriptive statistics?'
 description: 'Descriptive statistics are the foundation for all statistical analysis, no matter how complex. '
 ---
 
-## Example coding exercise
+## Getting started
 
 ```yaml
 type: NormalExercise
@@ -21,7 +21,7 @@ Let's start with "measures of central tendency" which are often the statistics p
 To get started we need to create a small set of data called a vector.  Let's call the vector **my_data**  and include the numbers  10, 5, 6, 12, 10, 7, 16.  We create this using the assignment operator <- and the function c().
 
 `@hint`
-
+Type the example code exactly as written.
 
 `@pre_exercise_code`
 ```{r}
@@ -36,6 +36,44 @@ my_data <- c(10, 5, 12, 10, 7, 16)
 `@solution`
 ```{r}
 my_data <- c(10, 5, 12, 10, 7, 16)
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Get the mean
+
+```yaml
+type: NormalExercise
+key: 8a6d23546b
+xp: 100
+```
+
+
+
+`@instructions`
+Now let's use the mean() function in R to calculate the mean of my_data.
+
+`@hint`
+Type the code exactly as written.
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+mean(my_data)
+```
+
+`@solution`
+```{r}
+mean(my_data)
 ```
 
 `@sct`
