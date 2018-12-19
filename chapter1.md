@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-Many of us learn descriptive statistics when we are in school, often starting fairly young. However, we often learn more about how to calculate them than what they actually mean.  Because we rely on R to do the  calculating for us, we can focus more on the concepts. 
+Many of us learn descriptive statistics when we are in school, often starting fairly young. However, we often learn more about how to calculate them than what they actually mean.  Because we rely on R to do the  calculating for us, we can focus more on the concepts.
 
 `@instructions`
 Let's start with "measures of central tendency" which are often the statistics people know.  For example you may remember the three Ms: mean, median and mode.  Let's review the versions of these that you probably learned in the past.   
